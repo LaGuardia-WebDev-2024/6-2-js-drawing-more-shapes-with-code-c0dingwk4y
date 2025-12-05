@@ -1,6 +1,6 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
-    size(400, 400); 
+    size(400, 600); 
     background(255,255,255,100);
 }
 
@@ -13,7 +13,7 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   rect(76,45,250,300); // face 
 
-  rect(126,250,152,60); // mouth 
+  rect(126,350,152,60); // mouth 
 
   rect(140,150,30,30); // left eye
   rect(240,150, 30,30); // right eye 
@@ -21,7 +21,12 @@ void draw(){
   rect(175,345, 50,50); // neck 
 
   // unibrow
-  line( 140, 129,270, 129);
+  line( 240, 129,270, 123);
+  
+  // unibrow
+  line( 130, 129,200, 123);
+
+  ellipse(210,295,150,100);
 
   
 
